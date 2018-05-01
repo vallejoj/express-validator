@@ -1,7 +1,7 @@
 import * as express from 'express';
 import { Sanitizer } from '../filter';
 import { Location } from './location';
-
+console.log("whats happening?")
 export type URLProtocol = 'http' | 'https' | 'ftp'
 export type UUIDVersion = 3 | 4 | 5 | 'all'
 export type IPVersion = 4 | 6
